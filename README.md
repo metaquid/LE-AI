@@ -1,5 +1,4 @@
 # LE-AI
-
 linguistic expansion by LE-AI expert.ai simplyfied API
 
 To use the LE-AI the light expert AI simplified API you need to register as a developer on the expert.ai site
@@ -16,7 +15,7 @@ The release of the LE-AI is under the MIT license.
 
 
 
-FEATURES AND FUNCTIONALITY
+# FEATURES AND FUNCTIONALITY
 
 Of all the possibilities provided by the expert.ai API, the most significant have been isolated for simplification 
 
@@ -47,7 +46,7 @@ Of all the possibilities provided by the expert.ai API, the most significant hav
 	$eai_topic				// the topic
 
 
-RESERVED INFORMATION --- Modify the content of variables:
+# RESERVED INFORMATION --- Modify the content of variables:
 
 $eai_usrn=	'CHANGE_WITH_YOUR_EMAIL';				// your developer username is email
 
@@ -55,11 +54,11 @@ $eai_pswd=	'CHANGE_WITH_YOUR_PASSWORD';			// your developer password
 
 
 
-SETTING Modify the content of variables for production:
+# SETTING Modify the content of variables for production:
 $devmod=	true;									// true for develop mode   false for production mode
 
 
 
-TEXT TO ELABORATE
+# TEXT TO ELABORATE
 
 $toanalyze=	'what is the best idea to make more money?';	// phrase to analyze
