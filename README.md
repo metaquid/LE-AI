@@ -24,32 +24,33 @@ The release of the LE-AI is under the MIT license.
 
 2) this is the list of variables used thanks to the simplified API, minimum 8, maximum 11:
 
-	$eai_language			// the used language
+	$eai_language			the used language
 	
-	$eai_content			// the content text
+	$eai_content			the content text
 	
-	$eai_mainSentences		// the main sentence (if exist more sentences)
+	$eai_mainSentences		the main sentence (if exist more sentences)
 	
-	$eai_knowledge			// the type of knowledge
+	$eai_knowledge			the type of knowledge
 	
-	$eai_mainLemmas		// the main lemma
+	$eai_mainLemmas		the main lemma
 	
-	$eai_mainLemmas1		// the second main lemma (if exist)
+	$eai_mainLemmas1		the second main lemma (if exist)
 	
-	$eai_mainPhrases		// the main phrase
+	$eai_mainPhrases		the main phrase
 	
-	$eai_mainSyncons		// the main syncon
+	$eai_mainSyncons		the main syncon
 	
-	$eai_mainSyncons1		// the second main syncon (if exist)
+	$eai_mainSyncons1		the second main syncon (if exist)
 	
-	$eai_sentiment			// the sentiment (float number from 0 to 100)
+	$eai_sentiment			the sentiment (float number from 0 to 100)
 	
-	$eai_topic				// the topic
+	$eai_topic				the topic
 
 
-# RESERVED INFORMATION --- Modify the content of variables
-$eai_usrn=	'CHANGE_WITH_YOUR_EMAIL';			// your developer username is email
-$eai_pswd=	'CHANGE_WITH_YOUR_PASSWORD';			// your developer password
+# RESERVED INFORMATION --- Modify the content of variables:
+$eai_usrn=	'CHANGE_WITH_YOUR_EMAIL';				your developer username is email
+
+$eai_pswd=	'CHANGE_WITH_YOUR_PASSWORD';			your developer password
 
 
 
@@ -59,4 +60,6 @@ $devmod=	true;		// true for develop mode   false for production mode
 
 
 # TEXT TO ELABORATE
-$toanalyze=	'what is the best idea to make more money?';	// phrase to analyze
+$toanalyze=	'what is the best idea to make more money?';	phrase to analyze
+
+	
