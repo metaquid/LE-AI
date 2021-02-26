@@ -53,6 +53,12 @@ $eai_pswd=	'CHANGE_WITH_YOUR_PASSWORD';			// your developer password
 
 
 
+# SECURITY SETTING --- Get certificate
+get certificate located in https://curl.se/ca/cacert.pem
+
+save the file in the same directory of php program
+
+
 # SETTING --- Modify the content of variables for production:
 $devmod=	true;					// true for develop mode   false for production mode
 
