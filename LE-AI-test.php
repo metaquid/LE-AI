@@ -182,7 +182,9 @@ if($eai_token==''){						// if token is void
 		$eai_token=	file_get_contents($filenameT);				// get the existing token
 	}else{												// if not exist previus saved token
 		[$eai_token, $eai_error]=	LEAI_expertai_get_token($eai_usrn,	$eai_pswd);	// token generation
-		$newT=	($eai_error)??	true;
+		if(!$eai_error){
+			$newT=	true;
+		}
 	}
 }
 
@@ -195,7 +197,9 @@ if($eai_token){													// if token is not empty
 			[$eai_token, $eai_error]=	LEAI_expertai_get_token($eai_usrn,	$eai_pswd);		// token generation
 			if(!$eai_error){														// on error
 				[$eai_json, $eai_error]=	LEAI_expertai_full_analysis($toanalyze, $eai_token);	// analyze the text
-				$newT=	$validate=		($eai_error)??	true;
+				if(!$eai_error){
+					$newT=	$validate=	true;
+				}
 			}
 		}else{
 			$validate=		true;
